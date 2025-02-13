@@ -1,0 +1,26 @@
+{
+    "name": "bigdanhe/phpdf",
+    "description": "pdf generator",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "tecnickcom/tcpdf": "^6.8",
+        "mpdf/mpdf": "^8.2",
+        "sabberworm/php-css-parser": "^8.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bigdanhe\\Phpdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bigdanhe",
+            "email": "bigdanhe@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
